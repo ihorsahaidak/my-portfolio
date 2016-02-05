@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html lang="ru" class="lt-ie9 lt-ie8 lt-ie7">
+   <![endif]-->
+   <!--[if IE 7]>
+   <html lang="ru" class="lt-ie9 lt-ie8">
+      <![endif]-->
+      <!--[if IE 8]>
+      <html lang="ru" class="lt-ie9">
+         <![endif]-->
+         <!--[if gt IE 8]><!-->
+         <html lang="ru">
+            <!--<![endif]-->
+            <head>
+               <meta charset="UTF-8">
+               <title>Equation</title>
+               <meta name="description" content="курсова робота" />
+               <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+               <link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css" />
+               <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+               <link rel="shortcut icon" href="favicon.png" />
+               <link rel="stylesheet" href="css/author.css">
+               <link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
+               <link rel="stylesheet" href="css/fonts.css" />
+               <link rel="stylesheet" href="css/media.css" />
+               <link rel="stylesheet" href="css/animate.css">
+            </head>
+            <body>
+               <header role="banner">
+                  <div class="content">
+                     <nav class="container">
+                        <ul>
+                           <li><a href="home.html">Головна</a></li>
+                           <li><a href="index.html">Програма</a></li>
+                           <li><a href="download.html">Завантажити</a></li>
+                           <li><a class="active" href="author.html">Автор</a></li>
+                        </ul>
+                     </nav>
+                  </div>
+                  <div class="container">
+                     <div id="header-handle" class="handle">
+                        <div class="bars">
+                           <div class="bar"></div>
+                           <div class="bar"></div>
+                           <div class="bar"></div>
+                        </div>
+                     </div>
+                  </div>
+               </header>
+               <div class="goback"><button onclick="goBack()"><i class="fa fa-reply-all"></i> НАЗАД</button></div>
+               <section class="main_content">
+                  <div class="container">
+                     <div class="row">
+                        <div class="aboutme">
+                           <div class="col-md-4">
+                              <div class="lphoto-a">
+                                 <img class="wow fadeInLeft" data-wow-duration=".6s" src="img/im.png">   
+                              </div>
+                           </div>
+                           <div class="col-md-1 line_auth"> <img class="wow bounceInDown" data-wow-duration=".6s" src="img/line.png"></div>
+                           <div class="col-md-7">
+                              <div class=" wow fadeInRight ltext-a" data-wow-duration=".5s">
+                                 <h4>Сагайдак Ігор Михайлович</h4>
+                                 <span> Студент факультету математики та інформатики, <br> кафедри системного аналізу та страхової і фінансової математики,<br> Чернівецького національного університему імені  Ю.Федьковича. <br> Навчаюсь на 3-му курсі. <br>
+                                 Цікавлюсь ІТ-технологіями, Веб-дизайном, і Веб-технологіями в цілому.</span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </section>
+               <script src='js/jq.js'></script>
+               <script>
+                  (function() {
+                    $(document).ready(function() {
+                     return $('#header-handle').click(function() {
+                      return $('header').toggleClass('expanded');
+                     });
+                   });
+                   }).call(this);
+                    function goBack() {
+                      window.history.back();
+                    }
+               </script>
+               <script src="wow.min.js"></script>
+               <script>
+                  new WOW().init();
+               </script>
+            </body>
+         </html>

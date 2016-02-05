@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html lang="ru" class="lt-ie9 lt-ie8 lt-ie7">
+   <![endif]-->
+   <!--[if IE 7]>
+   <html lang="ru" class="lt-ie9 lt-ie8">
+      <![endif]-->
+      <!--[if IE 8]>
+      <html lang="ru" class="lt-ie9">
+         <![endif]-->
+         <!--[if gt IE 8]><!-->
+         <html lang="ru">
+            <!--<![endif]-->
+            <head>
+               <meta charset="utf-8" />
+               <title>Equation</title>
+               <meta name="description" content="курсова робота" />
+               <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+               <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+               <link rel="shortcut icon" href="favicon.png" />
+               <link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
+               <link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css" />
+               <link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+               <link rel="stylesheet" href="libs/owl-carousel/owl.carousel.css" />
+               <link rel="stylesheet" href="libs/countdown/jquery.countdown.css" />
+               <link rel="stylesheet" href="css/fonts.css" />
+               <link rel="stylesheet" href="css/main.css" />
+               <link rel="stylesheet" href="css/media.css" />
+               <link rel="stylesheet" href="css/animate.css">
+            </head>
+            <body>
+               <header class="top_header">
+                  <div class="container">
+                     <div class="col-md-12">
+                        <div class="row">
+                           <a href="index.html" class="logo">EQUATION</a>
+                           <nav class="maian_mnu clearfix">
+                              <button class="main_mnu_button hidden-md hidden-lg"><i class="fa fa-bars"></i></button>
+                              <ul>
+                                 <li><a href="home.html">Головна</a></li>
+                                 <li class="active"><a href="index.html">Програма</a></li>
+                                 <li><a href="download.html">Завантажити</a></li>
+                                 <li><a href="author.html">Автор</a></li>
+                              </ul>
+                           </nav>
+                        </div>
+                     </div>
+                  </div>
+               </header>
+               <section class="main_content">
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-md-12 my-line">
+                           <div class="wrapper">
+                              <div class="content">
+                                 <form action=""  onsubmit="return check();" class="my-form">
+                                    <div class="some-info">
+                                       <h3>Рішення рівнянь вищого степення методом М.І.Лобачевського</h3>
+                                       <span>Алгебраїчне рівняння n-го степеня має вигляд:</span>  
+                                       <img src="img/equ.png" >
+                                    </div>
+                                    <div class="pos-inp">
+                                       <a href="#" class="hvr-bounce-to-right"><input type="button" value="Додати степінь" id="form_year_added"></a><br>
+                                       <input type="submit"  value="Знайти корені" name="submit" class="subm">
+                                    </div>
+                                    <div class="list_year">
+                                       <span id="form_year_number">1</span>
+                                       <div class="param wow slideInLeft"  data-wow-duration=".6s">
+                                          <input type="text" id="year_1" name="year[]" placeholder="значення" value="" >
+                                          <span class="eq_zero"> = 0</span>
+                                          <label for="year_2013"> </label>
+                                       </div>
+                                    </div>
+                                    <p id="demo1"></p>
+                                    <p id="demo"></p>
+                                 </form>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </section>
+               <script src="libs/jquery/jquery-1.11.1.min.js"></script>
+               <script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+               <script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+               <script src="libs/waypoints/waypoints-1.6.2.min.js"></script>
+               <script src="libs/owl-carousel/owl.carousel.min.js"></script>
+               <script src="libs/countdown/jquery.plugin.js"></script>
+               <script src="libs/countdown/jquery.countdown.min.js"></script>
+               <script src="libs/countdown/jquery.countdown-ru.js"></script>
+               <script src="libs/landing-nav/navigation.js"></script>
+               <script src="js/common.js"></script>
+               <script type="text/javascript" src="js/main.js"></script>
+               <script src="wow.min.js"></script>
+               <script>
+                  new WOW().init();
+               </script>
+            </body>
+         </html>
